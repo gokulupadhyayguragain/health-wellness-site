@@ -1,0 +1,216 @@
+#pop {
+    cursor: pointer;
+}
+.description {
+    font-size: 30px;
+}
+.gradient-section {
+    background: linear-gradient(to left, #fdb0c0, white);
+    height: 100vh;
+    display: flex;
+}
+
+.image-container {
+    width: 50%;
+    position: relative;
+}
+
+.doctor-image {
+    position: absolute;
+    top: 10vh;
+    left: 0vh;
+    width: 110%;
+}
+
+.content-container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    padding: 5% 0;
+    font-size: 150%;
+    position: relative;
+    left: -100px;
+    top: -50px;
+
+}
+
+.heading {
+    padding: 10% 0 0 0;
+}
+
+.feature {
+    margin: 0;
+}
+.gradient-section {
+    background: linear-gradient(to right, #fdb0c0, white);
+}
+
+.services-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to right, #fdb0c0, white);
+}
+
+.services-title {
+    position: absolute;
+    left: 48%;
+    font-size: 30px;
+    top: 0;
+}
+
+.card {
+    flex: 1;
+    min-width: 200px;
+    max-width: 45%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    top: 50px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.card-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 192, 203, 0.8);
+    color: white;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
+}
+
+.footer-section {
+    background: linear-gradient(to right, #fdb0c0, white);
+    height: 20vh;
+    text-align: center;
+    position: relative;
+}
+.gradient-section {
+    background: linear-gradient(to left, #fdb0c0, white);
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(to left, #fdb0c0, white);
+    height: 100vh;
+    position: relative;
+}
+
+.team-title {
+    position: absolute;
+    left: 48%;
+    font-size: 30px;
+    top: 0;
+}
+
+.team-card {
+    flex: 1;
+    min-width: 200px;
+    max-width: 45%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    top: 50px;
+}
+
+.team-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.team-image-large {
+    width: 400px;
+    height: auto;
+    display: block;
+    position: relative;
+    top: -150px;
+    left: -50px;
+}
+
+.team-content {
+    padding: 15px;
+}
+
+.team-content h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.team-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 192, 203, 0.8);
+    color: white;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.team-card:hover .team-overlay {
+    opacity: 1;
+}
+
+.footer-section {
+    background: linear-gradient(to left, #fdb0c0, white);
+    height: 20vh;
+    text-align: center;
+    position: relative;
+}
+.footer-section.darkmode {
+    background: linear-gradient(to left, #fdb0c0, black);
+    height: 20vh;
+    text-align: center;
+    position: relative;
+}
+
+#icon{
+    width: 10%;
+}

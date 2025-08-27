@@ -1,0 +1,9 @@
+/* Dark mode styles */
+body.darkmode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+nav.darkmode {
+    background-color: #444444;
+}

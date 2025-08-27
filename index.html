@@ -1,0 +1,423 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing | The Vitamin H</title>
+  <link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/grid.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/lockscreen.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/nav.css">
+</head>
+<body  id="main" class="main-content">
+<head>
+
+</head>
+<nav>
+  <div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn">×</a>
+    <a href="index.html">Home</a>
+    <a href="/pages/services.html">Services</a>
+    <a href="/pages/about.html">About</a>
+    <a href="/pages/appointment.html">Appointment</a>
+    <a href="/pages/blog.html">Blog</a>
+    <a href="/pages/events.html">Events</a>
+    <a href="/pages/faqs.html">FAQs</a>
+    <a href="/pages/news.html">News</a>
+    <a href="/pages/resource.html">Resource</a>
+    <a href="/pages/terms.html">Terms of Condition</a>
+    <a href="/pages/terms.html">Privacy Policy</a>
+    <a href="/pages/testimonials.html">Testimonials</a>
+  </div>
+  <button class="openbtn">☰</button>
+</nav>
+<main>
+
+
+  <div id="bgimg">
+    <header>
+        <span><img src="img/vith.png" alt="" style="width: 4.5%; height: auto;"><span>Vitamin H</span></span>
+    <nav>
+      <ul>
+       <li> <a href="index.html" class="active">Home</a></li>
+        <li><a href="/pages/services.html">Services</a></li>
+          <li><a href="/pages/about.html">About</a></li>
+            <li><a href="/pages/appointment.html">Appointment</a></li>
+              <li><a href="/pages/blog.html">Blog</a></li>
+                <li><a href="/pages/events.html">Events</a></li>
+                  <li><a href="/pages/faqs.html">FAQs</a></li>
+                    <li><a href="/pages/news.html">News</a></li>
+                      <li><a href="/pages/resource.html">Resource</a></li>
+        <li><a id="pop">Login</a></li>
+        <li><a id="darkmode" style="cursor: pointer;">DarkMode</a></li>
+      </ul>
+    </nav>
+    </header>
+    
+    <div class="popup" id="loginPopup">
+      <div class="popup-content">
+          <div class="popup-header">
+              <div class="switch">
+                <button id="loginSwitch" class="active">Login</button>
+
+                <button id="signupSwitch">Sign Up</button>
+
+              </div>
+              <button id="closePopupButton">&times;</button>
+
+          </div>
+          <div class="popup-body">
+            <form id="loginForm">
+              <h2>Login</h2>
+              <input type="email" id="loginEmail" placeholder="Email" required>
+              <input type="password" id="loginPassword" placeholder="Password" required>
+              <button type="submit">Login</button>
+          </form>
+          
+          <form id="signupForm" style="display:none;">
+            <h2>Sign Up</h2>
+            <input type="text" id="signupUsername" placeholder="Username" required>
+            <input type="email" id="signupEmail" placeholder="Email" required>
+            <input type="password" id="signupPassword" placeholder="Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+          </div>
+      </div>
+    </div>
+<main id="main1">
+    <div id="div1">
+        <h2 id="heading"></h2>
+        <p class="description">Empowering Your Wellness Journey with The Vitamin H</p>
+        <br>
+        <button id="getStartedBtn">Get Started</button>
+    </div>
+    <div id="div2">
+        <img src="" alt="" id="pic">
+    </div>
+</main>
+    </div>
+    <div style="
+    width: 100%; background: linear-gradient(to right, #fdb0c0
+      
+      , white); height: auto;
+       position: relative; top: -100px;">
+    <style>
+      /* General styling */
+      body {
+          font-family: 'Arial', sans-serif;
+          line-height: 1.6;
+          margin: 0;
+          padding: 0;
+      }
+
+      h1, h2, h3 {
+          font-weight: normal;
+
+      }
+      article{
+        margin: 50px 0px 0px 100px;
+        max-width: 1000px;
+      }
+
+      h1 {
+          font-size: 2.5em;
+          margin-bottom: 20px;
+      }
+
+      h2 {
+          font-size: 2em;
+          margin-bottom: 10px;
+      }
+
+      h3 {
+          font-size: 1.5em;
+          margin-bottom: 10px;
+      }
+
+      p {
+          font-size: 1.2em;
+          color: #333;
+
+      }
+
+      .image-grid {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          justify-content: space-between;
+      }
+
+      .image-card {
+          flex: 1 1 calc(50% - 20px);
+          background: #fff;
+          border-radius: 8px;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+          overflow: hidden;
+          text-align: center;
+          padding: 10px;
+          margin: 10px;
+          transition: transform 0.3s ease-in-out;
+      }
+
+      .image-card img {
+          width: 100%;
+          height: auto;
+          max-height: 200px;
+          object-fit: cover;
+          border-bottom: 1px solid #ddd;
+      }
+
+      .details-btn a {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #007BFF;
+          color: #fff;
+          text-decoration: none;
+          border-radius: 5px;
+          margin-top: 10px;
+          font-size: 1.2em;
+      }
+
+      .details-btn a:hover {
+          background-color: #0056b3;
+      }
+
+      .testimonial-section {
+          width: 80%;
+          margin: 0 auto;
+          padding: 20px;
+          background-color: #f9f9f9;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          font-family: Arial, sans-serif;
+          margin-top: 5%;
+      }
+
+      .testimonial {
+          display: flex;
+          align-items: flex-start;
+          gap: 15px;
+      }
+
+      .testimonial-img {
+          width: 300px;
+          height: 300px;
+          object-fit: cover;
+          margin-top: 2%;
+          margin-bottom: 2%;
+          margin-left: 5%;
+          border-radius: 10%;
+      }
+
+      .testimonial-content {
+          max-width: 800px;
+      }
+
+      .testimonial-content p {
+          font-size: 16px;
+          line-height: 1.6;
+          margin-bottom: 20px;
+          margin-top: 5%;
+          margin-left: 100px;
+          color: #666;
+      }
+  </style>
+</head>
+<body>
+  <div style="        width: 80%;
+  margin: 0 auto; /* Center the div horizontally */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 5%;;">
+  
+  <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif; padding: 5%;">
+
+    <!-- Our Services -->
+    <div style="padding: 20px;">
+        <h2 style="text-align: center; font-size: 40px;  color: #333;">Our Services</h2>
+        <h1>Suggest Healthy Foods</h1>
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 15px;">
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9; transition: transform 0.3s;">
+                <img src="img/almonds.jpg" alt="Food 1" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Almonds</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">This delicious dish is rich in flavors and packed with nutrients. Ideal for a healthy meal.</p>
+            </div>
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9; transition: transform 0.3s;">
+                <img src="img/beets.jpg" alt="Food 2" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Beets</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">Enjoy this meal with a variety of vegetables and spices for a balanced diet.</p>
+            </div>
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9; transition: transform 0.3s;">
+                <img src="img/brocauli.jpg" alt="Food 3" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Brocauli</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">A savory option with a rich taste and wholesome ingredients for a nutritious lunch.</p>
+            </div>
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9; transition: transform 0.3s;">
+                <img src="img/fish.jpg" alt="Food 4" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Fish</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">This meal is high in protein and perfect for a post-workout recovery.</p>
+            </div>
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9; transition: transform 0.3s;">
+                <img src="img/mangoes.jpg" alt="Food 5" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Mangoes</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">Fresh and light, this dish provides essential vitamins and minerals for overall health.</p>
+            </div>
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9; transition: transform 0.3s;">
+                <img src="img/peanutbutter.jpg" alt="Food 6" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Peanut Butter</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">Rich in antioxidants, this meal helps in boosting your immune system.</p>
+            </div>
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9; transition: transform 0.3s;">
+                <img src="img/spinach.jpg" alt="Food 7" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Spinach</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">A delicious blend of flavors, perfect for a hearty dinner.</p>
+            </div>
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9; transition: transform 0.3s;">
+                <img src="img/chocolate.jpg" alt="Food 8" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Chocolate</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">This dish is ideal for maintaining a balanced diet and is packed with nutrients.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Appointment -->
+    <div style="padding: 20px;">
+        <h2 style="text-align: center; font-size: 40px; margin-bottom: 20px; color: #333;">Book Your Appointment</h2>
+        <p>Booking an appointment is easy, no matter which location you’re visiting!</p>
+        <div style="background-color: #ecf0f1; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+            <h2 style="font-size: 30px; color: #2c3e50; margin-bottom: 20px;">Appointment Form</h2>
+            <label style="font-size: 18px; color: #2c3e50; display: block; margin-bottom: 8px;">Name:</label>
+            <input type="text" placeholder="Your Name" style="width: 100%; padding: 12px; margin: 8px 0 20px; border: 1px solid #bdc3c7; border-radius: 4px; font-size: 16px;">
+            <label style="font-size: 18px; color: #2c3e50; display: block; margin-bottom: 8px;">Email:</label>
+            <input type="email" placeholder="Your Email" style="width: 100%; padding: 12px; margin: 8px 0 20px; border: 1px solid #bdc3c7; border-radius: 4px; font-size: 16px;">
+            <label style="font-size: 18px; color: #2c3e50; display: block; margin-bottom: 8px;">Phone Number:</label>
+            <input type="tel" placeholder="Your Phone Number" style="width: 100%; padding: 12px; margin: 8px 0 20px; border: 1px solid #bdc3c7; border-radius: 4px; font-size: 16px;">
+            <label style="font-size: 18px; color: #2c3e50; display: block; margin-bottom: 8px;">Date:</label>
+            <input type="date" style="width: 100%; padding: 12px; margin: 8px 0 20px; border: 1px solid #bdc3c7; border-radius: 4px; font-size: 16px;">
+            <label style="font-size: 18px; color: #2c3e50; display: block; margin-bottom: 8px;">Time:</label>
+            <input type="time" style="width: 100%; padding: 12px; margin: 8px 0 20px; border: 1px solid #bdc3c7; border-radius: 4px; font-size: 16px;">
+            <label style="font-size: 18px; color: #2c3e50; display: block; margin-bottom: 8px;">Type of Appointment:</label>
+            <select style="width: 100%; padding: 12px; margin: 8px 0 20px; border: 1px solid #bdc3c7; border-radius: 4px; font-size: 16px;">
+                <option value="general">General Consultation</option>
+                <option value="specialist">Specialist Consultation</option>
+            </select>
+            <label style="font-size: 18px; color: #2c3e50; display: block; margin-bottom: 8px;">Notes:</label>
+            <textarea placeholder="Additional Notes" style="width: 100%; padding: 12px; margin: 8px 0 20px; border: 1px solid #bdc3c7; border-radius: 4px; font-size: 16px; height: 100px;"></textarea>
+            <button type="submit" style="background-color: #3498db; color: white; padding: 15px 20px; border: none; border-radius: 4px; font-size: 18px; cursor: pointer; width: 100%; margin-top: 10px;">Book Now</button>
+        </div>
+    </div>
+
+    <!-- Our Teams -->
+    <div style="padding: 20px;">
+        <h2 style="text-align: center; font-size: 40px; margin-bottom: 20px; color: #333;">Our Teams</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-around;">
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9;">
+                <img src="/img/aayushd.jpg" alt="Aayush Paneru, MD" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Aayush Paneru, MD</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">Specializing in cardiovascular health and treatments, Dr. Paneru is dedicated to improving heart health through expert care and research.</p>
+            </div>
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9;">
+                <img src="img/nancys.jpeg" alt="Nancy Agarwal, MD" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Nancy Agarwal, MD</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">Dr. Agarwal focuses on neurological disorders and is known for her innovative approaches to treatment and patient care.</p>
+            </div>
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9;">
+                <img src="/img/kirans.png" alt="Kiran Pandey, MD" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Kiran Pandey, MD</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">Dr. Pandey offers comprehensive care for complex medical conditions and contributes to clinical research and patient education.</p>
+            </div>
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9;">
+                <img src="img/gocool.jpeg" alt="Gokul Guragain, MD" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Gokul Guragain, MD</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">Dr. Guragain’s expertise in oncology supports our cancer care initiatives, offering both treatment and support services to patients.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog -->
+    <div style="padding: 20px;">
+        <h2 style="text-align: center; font-size: 40px; margin-bottom: 20px; color: #333;">Blog</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-around;">
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9;">
+                <img src="/img/blood.webp" alt="Blog Post 1" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Blog Post 1</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">This post covers essential tips for maintaining a healthy lifestyle and making informed choices.</p>
+            </div>
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9;">
+                <img src="/img/flowsolution.webp" alt="Blog Post 2" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Blog Post 2</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">Explore the latest advancements in medical treatments and how they can benefit you.</p>
+            </div>
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9;">
+                <img src="/img/mental.webp" alt="Blog Post 3" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Blog Post 3</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">Learn about effective strategies for managing stress and enhancing mental well-being.</p>
+            </div>
+            <div style="width: 23%; box-sizing: border-box; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background-color: #f9f9f9;">
+                <img src="/img/monitoring.webp" alt="Blog Post 4" style="width: 100%; height: auto; display: block;">
+                <h2 style="font-size: 18px; margin: 10px;">Blog Post 4</h2>
+                <p style="font-size: 14px; margin: 10px; color: #555;">Find out how to incorporate exercise into your daily routine for optimal health.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </div>
+  
+    
+    <footer style="position: relative; top: 100px;">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="food.html">Food</a></li>
+              <li><a href="food.html">Exercise</a></li>
+              <li><a href="food.html">Yoga</a></li>
+              <li><a href="food.html">Massage</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>About Us</h3>
+            <ul>
+              <li><a href="team.html">Our Team</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Resources</h3>
+            <ul>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="faqs.html">FAQs</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+          </div>
+          <div class="footer-column social-icons">
+            <h3>Connect With Us</h3>
+            <br>
+            <ul>
+                <a href="https://www.facebook.com/gocoolx?mibextid=ZbWKwL"><img src="img/facebook.png" alt="" id="icon"></a>
+                <a href=""><img src="../img/linkedin.png" alt="" id="icon"></a>
+                <a href=""><img src="../img/whatsapp.png" alt="" id="icon"><a>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright © 2024 The Vitamin H | H for Health | All Rights Reserved.</p>
+        </div>
+      </footer>
+
+
+
+        <script src="js/sidepannel.js"></script>
+        <script src="js/autoplay.js"></script>
+        <script src="js/darkmode.js"></script>
+        <script src="js/datimocation.js"></script>
+        <script src="js/form.js"></script>
+        <script src="js/gallerypreview.js"></script>
+        <script src="js/lockscreen.js"></script>
+</body>
+</html>
